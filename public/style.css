@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  src: url(thindmsans.ttf) format('truetype');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  src: url(NotoSansTC-Thin.ttf) format('truetype');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  src: url(NotoSansJP-Thin.ttf) format('truetype');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  src: url(NotoSansKR-Thin.ttf) format('truetype');
+  font-weight: 100;
+}
+
+body {
+  color: rgb(247, 0, 255);
+  font-family: "Comic Sans", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-style: normal;
+  background-image: url("bg.png");
+  
+}
+
+.bgtext{
+    color: rgb(0, 0, 0);
+    font-size: 90pt;
+    font-family:
+    'DM Sans',
+    'Noto Sans TC',
+    'Noto Sans JP',
+    'Noto Sans KR',
+    'Noto Sans',
+    sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 3%;
+    left: 2%;
+}
