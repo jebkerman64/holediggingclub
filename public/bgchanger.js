@@ -3,7 +3,6 @@ const welcomes = [
   "Bienvenido",
   "Bienvenue",
   "Willkommen",
-  "Benvenuto",
   "Bem-vindo",
   "Добро пожаловать",
   "欢迎",
@@ -16,9 +15,6 @@ const welcomes = [
   "Hoş geldiniz",
   "Witamy",
   "Καλώς ήρθατε",
-  "Velkommen",
-  "Välkommen",
-  "Welkom",
   "Karibu",
   "ยินดีต้อนรับ"
 ];
@@ -54,6 +50,6 @@ function Add(){
     }
     else{
         //setTimeout(Del, 10000);
-        setTimeout(Del, 1000);
+        setTimeout(Del, 6000);
     }
 }
