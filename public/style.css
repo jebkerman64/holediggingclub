@@ -34,7 +34,7 @@ body {
    background-attachment: fixed;
    background-position: center center;
    background-size: cover; 
-  
+  overflow-x: hidden;
 }
 
 .bgtext{
@@ -60,6 +60,6 @@ body {
 .top{
     position: absolute;
     top: 0%;
-    right: %;    
+    right: -10%;    
     width: 40vw;
 }
